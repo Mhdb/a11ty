@@ -20,10 +20,16 @@ tagline: I'm a philosopher of the mind
         <div class="w-full overflow-hidden">
           <div class="mt-2 flex flex-wrap mx-2 justify-center">
             <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
-              <a href="mailto:andrew.yuan.lee@gmail.com">andrew.yuan.lee@gmail.com \\</a>
+              <a href="mailto:andrew.yuan.lee@gmail.com">andrew.yuan.lee@gmail.com</a>
+            </div>
+            <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 cursor-default">
+              <p>//</p>
             </div>
             <div class="text-base mr-2 my-1 uppercase tracking-wider text-indigo-500 border-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
-              <a href="./cvandrew.pdf">CV \\</a>
+              <a href="./cvandrew.pdf">CV</a>
+            </div>
+            <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 cursor-default">
+              <p>//</p>
             </div>
             <div class="text-base mr-2 my-1 uppercase tracking-wider text-indigo-500 border-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
               <a href="https://philpeople.org/profiles/andrew-y-lee">Philpeople</a>
@@ -31,6 +37,47 @@ tagline: I'm a philosopher of the mind
           </div>
         </div>
       </div>
+
+      <div class="text-center px-6 py-4">
+              <div class="py-8">
+                <div class="mb-8">
+
+                </div>
+                <div class="text-indigo-200 text-xl">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>&#x3C3;</mi>
+  <mo>=</mo>
+  <msqrt>
+    <mfrac>
+      <mn>1</mn>
+      <mi>N</mi>
+    </mfrac>
+    <munderover>
+      <mo data-mjx-texclass="OP">&#x2211;</mo>
+      <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+    </munderover>
+    <mo stretchy="false">(</mo>
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+    <mo>&#x2212;</mo>
+    <mi>&#x3BC;</mi>
+    <msup>
+      <mo stretchy="false">)</mo>
+      <mn>2</mn>
+    </msup>
+  </msqrt>
+</math>
+</div>
+                </div>
+            </div>
+
   </div>
 
   <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
@@ -46,11 +93,54 @@ tagline: I'm a philosopher of the mind
         <br><br> I received my PhD from New York University in 2019. <br>Before that, I studied Philosophy and Cognitive Science at Brown University.
         <br><br>  In 2019-20, I'm a Mellon Postdoctoral Fellow at Rice University through its Value of Consciousness Project.
         <br><br>  In 2020-21, I'll be a Research Fellow at Australian National University's Centre for Consciousness.
+        <br><br> From 2021-24, I'll be a Postdoctoral Fellow at the University of Oslo through its ConsciousBrainConcepts project.
       </div>
     </div>
   </div>
   </div>
 </div>
+</div>
+
+
+
+<div class="flex flex-wrap overflow-hidden content-center pt-20 pb-20 bg-gray-900">
+  <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+    <h2 class="text-xl text-center font-bold mb-10 text-white">My research examines:</h2>
+
+    <ul class="block w-10/12 my-4 mx-auto" x-data="{selected:null}">
+      <li class="flex align-center flex-col">
+        <div @click="selected !== 11 ? selected = 11 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
+          <h4 class="text-white text-center inline-block">1. the formal structure of conscious experiences</h4>
+        </div>
+        <p x-show="selected == 11" class="border py-4 px-2 text-white">
+          Conscious experiences are structured. Consider how your perceptual experience breaks down into sensory modalities, how your pain experiences come in different degrees of intensity, and how your color experiences have hue, saturation, and brightness as dimensions of variation. However, while it is obvious that experiences have structure, there has been little consensus on basic questions about that structure. My work aims to identify what kinds of structures conscious experiences have and develops formal models that capture that structure.
+        </p>
+      </li>
+      <li class="flex align-center flex-col">
+        <div @click="selected !== 12 ? selected = 12 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
+          <h4 class="text-white text-center inline-block">2. the ethics and metaethics of consciousness</h4>
+        </div>
+        <p x-show="selected == 12" class="border py-4 px-2 text-white">
+          There is a common intuition that there are intimate connections between consciousness and value. If you lost the capacity for consciousness but remained otherwise the same, you would lose much of what makes your life good. My work argues that consciousness itself has no intrinsic value but argues that consciousness and value are nevertheless systematically connected. Amongst other things, I argue that some ethical facts are derivable from purely descriptive phenomenal facts, that pain is bad purely because of how it feels, and that consciousness is what makes an entity a welfare subject.
+        </p>
+      </li>
+      <li class="flex align-center flex-col">
+        <div @click="selected !== 13 ? selected = 13 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
+          <h4 class="text-white text-center inline-block">3. the epistemology of conscious experiences</h4>
+        </div>
+        <p x-show="selected == 13" class="border py-4 px-2 text-white">
+          Our knowledge of our own conscious experiences differs from our knowledge of the external world. But what exactly does that difference consist in? My work aims to answer this by examining questions about the nature and structure of introspection, imagination, phenomenal concepts, and phenomenal knowledge. A theme is that the epistemology of experience is special, but not always in the ways that philosophers have traditionally thought.
+        </p>
+      </li>
+    </ul>
+  </div>
+    <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+      <p class="text-indigo-200 text-xl">\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+
+    </div>
+  </div>
+
+
 
 
     <div class="flex flex-wrap overflow-hidden content-center pt-20 pb-20 bg-gray-900">
@@ -95,6 +185,9 @@ tagline: I'm a philosopher of the mind
             </p>
           </li>
         </ul>
+
+
+
 
       </div>
 
