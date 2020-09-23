@@ -1,3 +1,6 @@
+/* Font (see https://fonts.google.com) */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html,
 body {
   @apply font-inter text-gray-800 antialiased;

@@ -7,227 +7,251 @@ tagline: I'm a philosopher of the mind
 
 {% block body %}
 
-<div class="flex flex-wrap overflow-hidden content-center pt-20 pb-20 bg-gray-900">
-  <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+  <div class="flex flex-wrap overflow-hidden content-center xl:mx-32 lg:mx-28 pb-20 m-16">
+    <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+      <div class="justify-center">
+        <img class="h-56 w-56 rounded-full mx-auto" src="./andrew.jpg" alt="Andrew Y. Lee"/>
+      </div>
 
-    <div class="flex flex-wrap overflow-hidden pt-8">
-        <div class="w-full overflow-hidden">
-          <img class="h-56 w-56 rounded-full mx-auto " src="./andrew.jpg" alt="Andrew Y. Lee"/>
+      <div class="flex text-indigo-900 text-sm justify-center pt-12">
+        <a href="mailto:andrew.yuan.lee@gmail.com" class="mr-2 text-blue-900 hover:bg-blue-400 hover:text-indigo-100">
+          andrew.yuan.lee@gmail.com
+        </a>
+        <a href="#" class="mr-2 text-blue-900 hover:bg-blue-400 hover:text-indigo-100">
+          CV
+        </a>
+        <a href="https://philpeople.org/profiles/andrew-y-lee" class="mr-2 text-blue-900 hover:bg-blue-400 hover:text-indigo-100">
+          Philpeople
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+
+      <div class="flex w-full flex-wrap">
+        <div class="font-Vollkorn text-xl text-gray-900 leading-relaxed italic text-lg m-6">
+          <p>{{ tagline }}</p>
         </div>
-        <div class="w-full overflow-hidden">
-          <p class="text-white pt-4 text-lg text-3xl font-semibold text-center item-center">{{ title }}</p>
+        <div class="font-Vollkorn text-gray-800 leading-relaxed italic text-lg m-6">
+          <p>Most of my work is also connected to value theory, epistemology, metaphysics, or cognitive science.</p>
         </div>
-        <div class="w-full overflow-hidden">
-          <div class="mt-2 flex flex-wrap mx-2 justify-center">
-            <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
-              <a href="mailto:andrew.yuan.lee@gmail.com">andrew.yuan.lee@gmail.com</a>
+        <div class="font-Vollkorn text-gray-800 leading-relaxed italic text-lg m-6">
+          <ul class="list-disc">
+            <li>I received my PhD from New York University in 2019.</li>
+            <li>Before that, I studied Philosophy and Cognitive Science at Brown University.</li>
+            <li>In 2019-20, I'm a Mellon Postdoctoral Fellow at Rice University through its Value of Consciousness Project.</li>
+            <li>In 2020-21, I'll be a Research Fellow at Australian National University's Centre for Consciousness.</li>
+            <li>From 2021-24, I'll be a Postdoctoral Fellow at the University of Oslo through its ConsciousBrainConcepts project.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="w-full overflow-hidden my-12">
+      <!-- component -->
+      <div>
+        <section class="text-blue-900">
+          <div class="container px-5 mx-auto">
+            <div class="text-center mb-15">
+              <p class="text-2xl text-center font-sans font-bold mb-10 text-gray-900">
+                My research examines:
+              </p>
             </div>
-            <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 cursor-default">
-              <p>//</p>
-            </div>
-            <div class="text-base mr-2 my-1 uppercase tracking-wider text-indigo-500 border-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
-              <a href="./cvandrew.pdf">CV</a>
-            </div>
-            <div class="text-sm mr-2 my-1 uppercase tracking-wider text-indigo-500 cursor-default">
-              <p>//</p>
-            </div>
-            <div class="text-base mr-2 my-1 uppercase tracking-wider text-indigo-500 border-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 cursor-default">
-              <a href="https://philpeople.org/profiles/andrew-y-lee">Philpeople</a>
+            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+              <div class="w-full px-4 py-2">
+                <details class="mb-4">
+                  <summary class="text-lg bg-gray-200 rounded-md py-2 px-4 font-Vollkorn">
+                    1. The formal structure of conscious experiences
+                  </summary>
+
+                  <span>
+                    Conscious experiences are structured. Consider how your perceptual experience breaks down into sensory modalities, how your pain experiences come in different degrees of intensity, and how your color experiences have hue, saturation, and brightness
+                    as dimensions of variation. However, while it is obvious that experiences have structure, there has been little consensus on basic questions about that structure. My work aims to identify what kinds of structures conscious experiences have and
+                    develops formal models that capture that structure.
+                  </span>
+                </details>
+                <details class="mb-4">
+                  <summary class="text-lg bg-gray-200 rounded-md py-2 px-4 font-Vollkorn">
+                    2. The ethics and metaethics of consciousness
+                  </summary>
+
+                  <span>
+                    There is a common intuition that there are intimate connections between consciousness and value. If you lost the capacity for consciousness but remained otherwise the same, you would lose much of what makes your life good. My work argues that
+                    consciousness itself has no intrinsic value but argues that consciousness and value are nevertheless systematically connected. Amongst other things, I argue that some ethical facts are derivable from purely descriptive phenomenal facts, that pain is
+                    bad purely because of how it feels, and that consciousness is what makes an entity a welfare subject.
+                  </span>
+                </details>
+                <details class="mb-4">
+                  <summary class="text-lg bg-gray-200 rounded-md py-2 px-4 font-Vollkorn">
+                    3. The epistemology of conscious experiences
+                  </summary>
+
+                  <span>
+                    Our knowledge of our own conscious experiences differs from our knowledge of the external world. But what exactly does that difference consist in? My work aims to answer this by examining questions about the nature and structure of introspection,
+                    imagination, phenomenal concepts, and phenomenal knowledge. A theme is that the epistemology of experience is special, but not always in the ways that philosophers have traditionally thought.
+                  </span>
+                </details>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      
-
-  </div>
-
-  <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
-    <div class="w-full overflow-hidden pt-16">
-  <div class="flex flex-wrap justify-center">
-    <div class="w-full lg:w-9/12 px-4">
-      <quoteblock class="font-serif text-xl leading-relaxed italic">
-        <div class="text-6xl leading-none">“</div>
-        <div class="text-white px-6 -mt-6">{{ tagline }}</div>
-      </quoteblock>
-      <div class="font-serif text-white leading-relaxed italic text-xl m-6">
-        Most of my work is also connected to value theory, epistemology, metaphysics, or cognitive science.
-        <br><br> I received my PhD from New York University in 2019. <br>Before that, I studied Philosophy and Cognitive Science at Brown University.
-        <br><br>  In 2019-20, I'm a Mellon Postdoctoral Fellow at Rice University through its Value of Consciousness Project.
-        <br><br>  In 2020-21, I'll be a Research Fellow at Australian National University's Centre for Consciousness.
-        <br><br> From 2021-24, I'll be a Postdoctoral Fellow at the University of Oslo through its ConsciousBrainConcepts project.
+        </section>
       </div>
     </div>
-  </div>
-  </div>
-</div>
-</div>
 
+    <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2 my-12">
+      <h2 class="text-2xl text-center font-sans font-bold mb-10 text-gray-900">
+        Publications
+      </h2>
 
-
-<div class="flex flex-wrap overflow-hidden content-center pt-20 pb-20 bg-gray-900">
-  <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
-    <h2 class="text-xl text-center font-bold mb-10 text-white">My research examines:</h2>
-
-    <ul class="block w-10/12 my-4 mx-auto" x-data="{selected:null}">
-      <li class="flex align-center flex-col">
-        <div @click="selected !== 11 ? selected = 11 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-          <h4 class="text-white text-center inline-block">1. the formal structure of conscious experiences</h4>
-        </div>
-        <p x-show="selected == 11" class="border py-4 px-2 text-white">
-          Conscious experiences are structured. Consider how your perceptual experience breaks down into sensory modalities, how your pain experiences come in different degrees of intensity, and how your color experiences have hue, saturation, and brightness as dimensions of variation. However, while it is obvious that experiences have structure, there has been little consensus on basic questions about that structure. My work aims to identify what kinds of structures conscious experiences have and develops formal models that capture that structure.
-        </p>
-      </li>
-      <li class="flex align-center flex-col">
-        <div @click="selected !== 12 ? selected = 12 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-          <h4 class="text-white text-center inline-block">2. the ethics and metaethics of consciousness</h4>
-        </div>
-        <p x-show="selected == 12" class="border py-4 px-2 text-white">
-          There is a common intuition that there are intimate connections between consciousness and value. If you lost the capacity for consciousness but remained otherwise the same, you would lose much of what makes your life good. My work argues that consciousness itself has no intrinsic value but argues that consciousness and value are nevertheless systematically connected. Amongst other things, I argue that some ethical facts are derivable from purely descriptive phenomenal facts, that pain is bad purely because of how it feels, and that consciousness is what makes an entity a welfare subject.
-        </p>
-      </li>
-      <li class="flex align-center flex-col">
-        <div @click="selected !== 13 ? selected = 13 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-          <h4 class="text-white text-center inline-block">3. the epistemology of conscious experiences</h4>
-        </div>
-        <p x-show="selected == 13" class="border py-4 px-2 text-white">
-          Our knowledge of our own conscious experiences differs from our knowledge of the external world. But what exactly does that difference consist in? My work aims to answer this by examining questions about the nature and structure of introspection, imagination, phenomenal concepts, and phenomenal knowledge. A theme is that the epistemology of experience is special, but not always in the ways that philosophers have traditionally thought.
-        </p>
-      </li>
-    </ul>
-  </div>
-</div>
-
-
-
-
-    <div class="flex flex-wrap overflow-hidden content-center pt-20 pb-20 bg-gray-900">
-      <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
-        <h2 class="text-2xl text-center font-bold mb-10 text-white">Publications</h2>
-
-        <ul class="block w-10/12 my-4 mx-auto" x-data="{selected:null}">
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 7 ? selected = 7 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">The Microstructure of Experience</h4>
-              <span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">Journal of The American Philosophical Association</span>
-              <time class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">2019, 5 (3):286–305
-              </time>
-            </div>
-            <p x-show="selected == 7" class="border py-4 px-2 text-white">
-              I argue that experiences can have microphenomenal structures, where the macrophenomenal properties we introspect are realized by non-introspectible microphenomenal properties. After explaining what it means to ascribe a microstructure to experience,
-              I defend the thesis against its principal philosophical challenge, discuss how the thesis interacts with other philosophical issues about experience, and consider our prospects for investigating the microphenomenal realm.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 8 ? selected = 8 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">Is Consciousness Intrinsically Valuable? Philosophical Studies</h4>
-              <span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">Philosophical Studies</span>
-              <time class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">2018, 175 (1):1–17</time>
-            </div>
-            <p x-show="selected == 8" class="border py-4 px-2 text-white">
-              I argue that consciousness has zero intrinsic value. I explain what is at stake when we ask whether consciousness is intrinsically valuable, carve out the theoretical space, and develop some thought-experiments designed to assess the question. On the
-              view I favor, particular kinds of experiences may be good or bad, but consciousness itself is neutral.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 9 ? selected = 9 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">Modeling Mental Qualities</h4>
-              <span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">Philosophical Review</span>
-            </div>
-            <p x-show="selected == 9" class="border py-4 px-2 text-white">
-              Conscious experiences are characterized by mental qualities, such as those involved in seeing red, feeling pain, or smelling cinnamon. I argue that the standard framework for modeling mental qualities cannot capture precision structure: for example,
-              consider the phenomenal contrast between seeing an object as crimson in foveal vision versus seeing an object merely as red in peripheral vision. Then I develop a new formal framework that models mental qualities using regions, rather than points. I
-              also explain how this new framework enables us to formulate novel hypotheses about the space and structure of mental qualities, formally differentiates two dimensions of phenomenal similarity, generates a quantitative model of the phenomenal sorites,
-              and provides a new theoretical tool for the empirical investigation of conscious experiences. A noteworthy upshot is that the structure of the mental qualities of conscious experiences is fundamentally different from the structure of the perceptible
-              qualities of external objects.
-            </p>
-          </li>
-        </ul>
-
-
-
-
-      </div>
-
-      <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
-        <!-- Column Content -->
-        <h2 class="text-2xl text-center font-bold mb-10 text-white">Manuscripts</h2>
-        <ul class="block w-10/12 my-4 block mx-auto" x-data="{selected:null}">
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 0 ? selected = 0 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">The Value of Life Itself</h4>
-            </div>
-            <p x-show="selected == 0" class="border py-4 px-2 text-white">
-              Some philosophers think that life is worth living not merely because of the goods and the bads within it, but also because life itself is good. I argue instead that life itself is neither good nor bad. I explain how the view that life is worth living
-              for its own sake yields a dilemma: either (1) any finitely-long excellent life is worse than some longer life wholly devoid of pleasure, desire-satisfaction, knowledge, or any other goods, or (2) very brief lives involving nothing but horrific pain
-              are worth living. Since neither result is acceptable, we ought to reject the view that life itself is good. This result has implications for questions about the threshold for a life worth living, the value of consciousness and existence, the basic
-              welfare goods, the grounds of moral status, and a variety of ethical issues concerning life and death.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 1 ? selected = 1 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">Consciousness Makes Things Matter</h4>
-            </div>
-            <p x-show="selected == 1" class="border py-4 px-2 text-white">
-              Philosophers often debate what makes one better or worse off, but seldom debate what makes an entity the kind of thing that can be better or worse off in the first place. The first question concerns welfare goods; the second question concerns welfare
-              subjects. This paper argues for a phenomenal theory of welfare subjecthood, according to which consciousness is what makes an entity a welfare subject. I explain what it means for an entity to be a welfare subject, present and motivate the phenomenal
-              theory, and then defend the theory from objections. In slogan form, my view is that consciousness makes things matter.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 2 ? selected = 2 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">The Metaethics of Mind</h4>
-            </div>
-            <p x-show="selected == 2" class="border py-4 px-2 text-white">
-              I develop and defend value experientialism, the thesis that value facts about experiences (such as the fact that pain is bad) are wholly explained by phenomenal facts (such as the fact that pain hurts). I argue that value experientialism aligns with
-              common sense, that denying it leads to counterintuitive consequences, that it explains doxastic asymmetries between different classes of ethical beliefs, and that it accounts for the epistemic defects of hedonic inverts. I also argue that we ought to
-              embrace the surprising result that there are genuine counterexamples to the explanatory gap between descriptive facts and ethical facts.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 3 ? selected = 3 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">Knowing What It's Like</h4>
-            </div>
-            <p x-show="selected == 3" class="border py-4 px-2 text-white">
-              I argue that knowledge of what it is like to have an experience varies along a spectrum from the more exact to the more approximate. I motivate this degreed picture by appeal to limits in epistemic abilities such as recognition, imagination, and
-              inference. I systematize the degreed picture by developing a framework for modeling how phenomenal concepts yield knowledge of phenomenal character. And I explain the implications of the degreed picture for issues about reference, knowledge, and
-              concept possession. A noteworthy consequence is that we can acquire phenomenal concepts even for the exotic experiences of bats, octopuses, and aliens.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 4 ? selected = 4 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">Objective Phenomenology</h4>
-            </div>
-            <p x-show="selected == 4" class="border py-4 px-2 text-white">
-              I argue for the possibility of an objective phenomenology—a way of understanding the phenomenal character of experiences that does not require one to have had the kinds of experiences under consideration. My central thesis is that facts that are
-              purely about how experiences are structured are objective. I begin by developing a framework that enables us to assess the idea of objective phenomenology with greater precision. Then I diagnose what makes any given phenomenal fact subjective, argue
-              that there is a class of objective phenomenal facts, and argue that there is a structural explanatory gap between physical facts and structural facts about experience
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 5 ? selected = 5 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">First-Person Technology</h4>
-            </div>
-            <p x-show="selected == 5" class="border py-4 px-2 text-white">
-              I discuss the prospects for first-person technology, or technology for enhancing first-person investigation of experience. I consider various candidates for first-person technology, ranging from existing technology (such as virtual reality devices,
-              psychoactive drugs, and brain-machine interfaces) that can already be applied to first-person investigation to speculative technology that could be developed in the future. I develop a framework for categorizing and evaluating different kinds of
-              first-person technology. And I examine the philosophical challenges that arise in designing and employing such technology.
-            </p>
-          </li>
-          <li class="flex align-center flex-col">
-            <div @click="selected !== 6 ? selected = 6 : selected = null" class="cursor-pointer px-5 py-3 bg-indigo-400 hover:opacity-75 hover:shadow hover:-mb-3">
-              <h4 class="text-white text-center inline-block">The Structure of Analog Representation</h4>
-              <span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">Co-authors: Gabriel Rabin & Joshua Myers</span>
-            </div>
-            <p x-show="selected == 6" class="border py-4 px-2 text-white">
-              We develop an account of the nature and structure of analog representation. Our core idea is that analogicity is a matter of structure representing structure. We explain how this idea can be developed into a systematic theory of analog representation
-              that identifies three distinct measures of analogicity. We begin by developing a framework for characterizing the structures of representational systems. Then we use that framework to develop our structural theory of analog representation. After
-              developing our view, we explain how it explains the attractive features of extant accounts while providing natural solutions to new kinds of challenge cases.
-            </p>
-          </li>
-
-        </ul>
-
-      </div>
+      <ul class="block w-10/12 my-4 mx-auto" x-data="{selected:null}">
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 7 ? selected = 7 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              The Microstructure of Experience
+            </h4>
+            <span class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              Journal of The American Philosophical Association
+            </span>
+            <time class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              2019, 5 (3):286–305
+            </time>
+          </div>
+          <p x-show="selected == 7" class="border py-4 px-2 text-gray-900">
+            I argue that experiences can have microphenomenal structures, where the macrophenomenal properties we introspect are realized by non-introspectible microphenomenal properties. After explaining what it means to ascribe a microstructure to experience,
+            I defend the thesis against its principal philosophical challenge, discuss how the thesis interacts with other philosophical issues about experience, and consider our prospects for investigating the microphenomenal realm.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 8 ? selected = 8 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              Is Consciousness Intrinsically Valuable? Philosophical Studies
+            </h4>
+            <span class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              Philosophical Studies
+            </span>
+            <time class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              2018, 175 (1):1–17
+            </time>
+          </div>
+          <p x-show="selected == 8" class="border py-4 px-2 text-gray-900">
+            I argue that consciousness has zero intrinsic value. I explain what is at stake when we ask whether consciousness is intrinsically valuable, carve out the theoretical space, and develop some thought-experiments designed to assess the question. On the
+            view I favor, particular kinds of experiences may be good or bad, but consciousness itself is neutral.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 9 ? selected = 9 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              Modeling Mental Qualities
+            </h4>
+            <span class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              Philosophical Review
+            </span>
+          </div>
+          <p x-show="selected == 9" class="border py-4 px-2 text-gray-900">
+            Conscious experiences are characterized by mental qualities, such as those involved in seeing red, feeling pain, or smelling cinnamon. I argue that the standard framework for modeling mental qualities cannot capture precision structure: for example,
+            consider the phenomenal contrast between seeing an object as crimson in foveal vision versus seeing an object merely as red in peripheral vision. Then I develop a new formal framework that models mental qualities using regions, rather than points. I
+            also explain how this new framework enables us to formulate novel hypotheses about the space and structure of mental qualities, formally differentiates two dimensions of phenomenal similarity, generates a quantitative model of the phenomenal sorites,
+            and provides a new theoretical tool for the empirical investigation of conscious experiences. A noteworthy upshot is that the structure of the mental qualities of conscious experiences is fundamentally different from the structure of the perceptible
+            qualities of external objects.
+          </p>
+        </li>
+      </ul>
     </div>
+
+    <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2 my-12">
+      <!-- Column Content -->
+      <h2 class="text-2xl text-center font-sans font-bold mb-10 text-gray-900">
+        Manuscripts
+      </h2>
+      <ul class="block w-10/12 my-4 block mx-auto" x-data="{selected:null}">
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 0 ? selected = 0 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              The Value of Life Itself
+            </h4>
+          </div>
+          <p x-show="selected == 0" class="border py-4 px-2 text-gray-900">
+            Some philosophers think that life is worth living not merely because of the goods and the bads within it, but also because life itself is good. I argue instead that life itself is neither good nor bad. I explain how the view that life is worth living
+            for its own sake yields a dilemma: either (1) any finitely-long excellent life is worse than some longer life wholly devoid of pleasure, desire-satisfaction, knowledge, or any other goods, or (2) very brief lives involving nothing but horrific pain
+            are worth living. Since neither result is acceptable, we ought to reject the view that life itself is good. This result has implications for questions about the threshold for a life worth living, the value of consciousness and existence, the basic
+            welfare goods, the grounds of moral status, and a variety of ethical issues concerning life and death.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 1 ? selected = 1 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              Consciousness Makes Things Matter
+            </h4>
+          </div>
+          <p x-show="selected == 1" class="border py-4 px-2 text-gray-900">
+            Philosophers often debate what makes one better or worse off, but seldom debate what makes an entity the kind of thing that can be better or worse off in the first place. The first question concerns welfare goods; the second question concerns welfare
+            subjects. This paper argues for a phenomenal theory of welfare subjecthood, according to which consciousness is what makes an entity a welfare subject. I explain what it means for an entity to be a welfare subject, present and motivate the phenomenal
+            theory, and then defend the theory from objections. In slogan form, my view is that consciousness makes things matter.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 2 ? selected = 2 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              The Metaethics of Mind
+            </h4>
+          </div>
+          <p x-show="selected == 2" class="border py-4 px-2 text-gray-900">
+            I develop and defend value experientialism, the thesis that value facts about experiences (such as the fact that pain is bad) are wholly explained by phenomenal facts (such as the fact that pain hurts). I argue that value experientialism aligns with
+            common sense, that denying it leads to counterintuitive consequences, that it explains doxastic asymmetries between different classes of ethical beliefs, and that it accounts for the epistemic defects of hedonic inverts. I also argue that we ought to
+            embrace the surprising result that there are genuine counterexamples to the explanatory gap between descriptive facts and ethical facts.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 3 ? selected = 3 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              Knowing What It's Like
+            </h4>
+          </div>
+          <p x-show="selected == 3" class="border py-4 px-2 text-gray-900">
+            I argue that knowledge of what it is like to have an experience varies along a spectrum from the more exact to the more approximate. I motivate this degreed picture by appeal to limits in epistemic abilities such as recognition, imagination, and
+            inference. I systematize the degreed picture by developing a framework for modeling how phenomenal concepts yield knowledge of phenomenal character. And I explain the implications of the degreed picture for issues about reference, knowledge, and
+            concept possession. A noteworthy consequence is that we can acquire phenomenal concepts even for the exotic experiences of bats, octopuses, and aliens.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 4 ? selected = 4 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              Objective Phenomenology
+            </h4>
+          </div>
+          <p x-show="selected == 4" class="border py-4 px-2 text-gray-900">
+            I argue for the possibility of an objective phenomenology—a way of understanding the phenomenal character of experiences that does not require one to have had the kinds of experiences under consideration. My central thesis is that facts that are
+            purely about how experiences are structured are objective. I begin by developing a framework that enables us to assess the idea of objective phenomenology with greater precision. Then I diagnose what makes any given phenomenal fact subjective, argue
+            that there is a class of objective phenomenal facts, and argue that there is a structural explanatory gap between physical facts and structural facts about experience
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 5 ? selected = 5 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              First-Person Technology
+            </h4>
+          </div>
+          <p x-show="selected == 5" class="border py-4 px-2 text-gray-900">
+            I discuss the prospects for first-person technology, or technology for enhancing first-person investigation of experience. I consider various candidates for first-person technology, ranging from existing technology (such as virtual reality devices,
+            psychoactive drugs, and brain-machine interfaces) that can already be applied to first-person investigation to speculative technology that could be developed in the future. I develop a framework for categorizing and evaluating different kinds of
+            first-person technology. And I examine the philosophical challenges that arise in designing and employing such technology.
+          </p>
+        </li>
+        <li class="flex align-center flex-col">
+          <div @click="selected !== 6 ? selected = 6 : selected = null" class="cursor-pointer px-5 py-3 bg-white hover:opacity-75 hover:shadow hover:-mb-3">
+            <h4 class="text-gray-900 text-center inline-block font-Vollkorn">
+              The Structure of Analog Representation
+            </h4>
+            <span class="inline-flex bg-blue-400 text-gray-900 rounded-full h-6 px-3 justify-center items-center text-sm font-medium mt-1">
+              Co-authors: Gabriel Rabin & Joshua Myers
+            </span>
+          </div>
+          <p x-show="selected == 6" class="border py-4 px-2 text-gray-900">
+            We develop an account of the nature and structure of analog representation. Our core idea is that analogicity is a matter of structure representing structure. We explain how this idea can be developed into a systematic theory of analog representation
+            that identifies three distinct measures of analogicity. We begin by developing a framework for characterizing the structures of representational systems. Then we use that framework to develop our structural theory of analog representation. After
+            developing our view, we explain how it explains the attractive features of extant accounts while providing natural solutions to new kinds of challenge cases.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
 {% endblock %}

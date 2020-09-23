@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: '"Inter", sans-serif;',
+        'Vollkorn': ['"Vollkorn"', 'serif']
       },
     },
   },
